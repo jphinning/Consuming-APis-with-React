@@ -1,5 +1,5 @@
 import React from 'react'
-import IndexPage from './components/indexPage'
+import IndexPage from './components/IndexPage'
 import DollarAPI from './components/DolarRealAPI'
 import ToggleDarkMode from './components/ToggleDarkMode'
 
