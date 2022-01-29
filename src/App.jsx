@@ -1,13 +1,17 @@
 import React from 'react'
 import IndexPage from './components/indexPage'
 import DollarAPI from './components/DolarRealAPI'
+import ToggleDarkMode from './components/ToggleDarkMode'
+
+
 
 function App() {
 
   return (
     <>
-        <IndexPage />
-        <DollarAPI />
+      <ToggleDarkMode/>
+      <IndexPage />
+      <DollarAPI />
     </>
   )
 }
