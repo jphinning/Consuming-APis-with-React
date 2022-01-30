@@ -1,18 +1,6 @@
 import React from 'react'
 import { VStack, Box, StackDivider, Circle, Center} from '@chakra-ui/react'
 import { Input, Text, Heading } from '@chakra-ui/react'
-import {
-  Table,
-  Thead,
-  Tbody,
-  Tfoot,
-  Tr,
-  Th,
-  Td,
-  TableCaption,
-} from '@chakra-ui/react'
-
-
 
 const IndexPage = () => {
 
@@ -23,13 +11,9 @@ const IndexPage = () => {
     >
       <Center h='150px' margin='10'>
         <Heading as='h1' size='4xl' isTruncated>
-          (4xl) React pure Flavor & not Next
+          <Text color='teal'>Dollar/Real</Text> & BTC/Dollar Exchange Rates
         </Heading>
       </Center>
-
-      <Box display='flex' justifyContent={'center'}>
-        <Input placeholder='Basic usage' width={'500px'}/>
-      </Box>
     </VStack>
   )
 }
