@@ -11,7 +11,8 @@ const IndexPage = () => {
     >
       <Center h='150px' margin='10'>
         <Heading as='h1' size='4xl' isTruncated>
-          <Text color='teal'>Dollar/Real</Text> & BTC/Dollar Exchange Rates
+          <Text color='teal'>Dollar/Real &</Text> 
+          BTC/Dollar Exchange Rates in Real Time
         </Heading>
       </Center>
     </VStack>

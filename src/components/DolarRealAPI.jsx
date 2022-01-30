@@ -30,7 +30,7 @@ const DollarAPI = () => {
   }, [counter])
 
   return (
-    <Grid templateColumns='repeat(3, 1fr)'  gap={6} mx='100px'>
+    <Grid templateColumns='repeat(auto-fit, minmax(300px, 2fr))' gap={6} mx='20px'>
       <GridItem>
         <StatHolder name={apiResUSD.name} price={apiResUSD.ask} timeStamp={apiResUSD.create_date} codein={apiResUSD.codein}/>
       </GridItem>
